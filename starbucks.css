@@ -1,0 +1,139 @@
+.header{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.btn-outline-darkbtn{
+    padding-right: 10px;
+}
+.btn-btn-dark{
+margin: 10px;
+}
+.navfind a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-weight: 600;;
+}
+.headleft{
+    width: 31%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.b1{
+    height: 290px;
+    background-color: #d4e9e2;
+}
+.b2{
+    height: 400px;
+    background-color: rgb(81, 81, 53);
+}
+.b3{
+    height: 400px;
+    background-color: rgb(0, 112, 138);
+}
+.row p{
+    text-align: center;
+    padding-top: 38px;
+    font-size: 2rem;
+    font-weight: 500;
+}
+#count1 a{
+    font-family: sans-serif;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(56, 54, 54);
+    padding-top: 0px;
+}
+.textP{
+    font-size: 18px;
+}
+.join{
+    font-size: 18px;
+    font-weight: normal;
+}
+.row1{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.row2 img{
+height: 100%;
+width: 100%;
+}
+.b4{
+    height: 400px;
+    background-color: rgb(87, 8, 214);
+}
+.row4{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color:black;
+}
+.col1{
+    width: 150px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bb1{
+    height: 495px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    color: white;
+    background-color: #3d7170;
+}
+
+.bb3 img{
+    width: 100%;
+}
+.bb4{
+    height: 495px;
+    background-color: #f4c5a1;
+}
+.bb5{
+    height: 495px;
+    background-color: #8b323e;
+}
+
+.bb6 img{
+width: 100%;
+}
+.para{
+    font-size: 15px!important;
+}
+.btnbtn-outline-light{
+    height: 38px;
+}
+.bottom{
+    margin-top: 50px;
+    width: 100%;
+    height:100px ;
+}
+.text{
+padding: 50px;
+margin-left: 38%;
+}
+.abt{
+height: 238px;
+background-color: #d4e9e2;
+}
+@media (max-width: 991px) {
+    .headleft{
+        display: none;
+    }
+
+    .header{
+        width: auto;
+    }
+
+    
+}
